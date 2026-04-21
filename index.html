@@ -11,7 +11,7 @@
 <h2>Week 1</h2>
 
 <!-- Day 1 -->
-<h3>Day 1 (Monday) - IAM</h3>
+<h3>Monday(20/4/2026) - IAM</h3>
 <p>
 Created IAM AdminGroup and assigned AdministratorAccess.
 Created IAM user and added to group.
@@ -21,7 +21,7 @@ Logged in successfully using IAM user.
 <img src="IAM-group.png" width="500">
 
 <!-- Day 2 -->
-<h3>Day 2 (Tuesday) - EC2</h3>
+<h3>Tuesday(21/4/2026) - EC2</h3>
 <p>
 Launched an EC2 instance using Amazon Linux.
 Configured security group to allow SSH and HTTP access.
@@ -33,10 +33,41 @@ Successfully deployed a simple web page.
 <img src="ec2-web.png" width="500">
 
 <!-- Day 3 -->
-<h3>Day 3 (Wednesday) - S3</h3>
+<h3>Wednesday(22/4/2026) - VPC & S3</h3>
 <p>
-(To be updated)
+Created a custom VPC with CIDR block 10.0.0.0/16.<br>
+Created two subnets:
+<br>+ Public subnet (10.0.1.0/24)
+<br>+ Private subnet (10.0.2.0/24)
+<br><br>
+
+Created and attached an Internet Gateway (IGW).<br>
+Configured route tables:
+<br>+ Public route: 0.0.0.0/0 → Internet Gateway
+<br>+ Private route: local only (no internet access)
+<br><br>
+
+Enabled auto-assign public IPv4 for public subnet.
 </p>
+
+<p>
+Created an S3 bucket and uploaded index.html.<br>
+Disabled block public access and added bucket policy.<br>
+Enabled static website hosting.<br>
+Successfully accessed the website via S3 endpoint.
+</p>
+
+<h4>VPC Setup</h4>
+<img src="vpc-overview.png" width="500">
+<img src="internet-gateway.png" width="500">
+<img src="public-subnet.png" width="500">
+<img src="private-subnet.png" width="500">
+<img src="public-route-table.png" width="500">
+<img src="private-route-table.png" width="500">
+
+<h4>S3 Setup</h4>
+<img src="s3-bucket.png" width="500">
+<img src="s3-website.png" width="500">
 
 </body>
 </html>
