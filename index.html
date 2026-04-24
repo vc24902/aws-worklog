@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AWS Worklog</title>
+</head>
+
+<body>
+
+<h1>My AWS Worklog</h1>
+
+<h2>Week 1</h2>
+
+<!-- Day 1 -->
+<h3>Monday(20/4/2026) - IAM</h3>
+<p>
+Created IAM AdminGroup and assigned AdministratorAccess.
+Created IAM user and added to group.
+Logged in successfully using IAM user.
+</p>
+
+<img src="images/IAM-group.png" width="500">
+
+<!-- Day 2 -->
+<h3>Tuesday(21/4/2026) - EC2</h3>
+<p>
+Launched an EC2 instance using Amazon Linux.<br>
+Configured security group to allow SSH and HTTP access.<br>
+Connected to the instance via SSH and installed Apache web server.<br>
+Successfully deployed a simple web page.
+</p>
+
+<img src="images/ec2-running-ip.png" width="500">
+<img src="images/ec2-web.png" width="500">
+
+<!-- Day 3 -->
+<h3>Wednesday(22/4/2026) - VPC</h3>
+<p>
+Created a custom VPC with CIDR block 10.0.0.0/16.<br>
+Created two subnets:
+<br>+ Public subnet (10.0.1.0/24)
+<br>+ Private subnet (10.0.2.0/24)
+<br><br>
+
+Created and attached an Internet Gateway (IGW).<br>
+Configured route tables:
+<br>+ Public route: 0.0.0.0/0 → Internet Gateway
+<br>+ Private route: local only (no internet access)
+<br><br>
+
+Enabled auto-assign public IPv4 for public subnet.
+</p>
+
+<h4>VPC Setup</h4>
+<img src="images/vpc-overview.png" width="500">
+<img src="images/internet-gateway.png" width="500">
+<img src="images/public-subnet.png" width="500">
+<img src="images/private-subnet.png" width="500">
+<img src="images/public-route-table.png" width="500">
+<img src="images/private-route-table.png" width="500">
+
+<!-- Day 4 -->
+<h3>Thursday(23/4/2026) - S3 Static Website</h3>
+<p>
+Created an S3 bucket and uploaded index.html.<br>
+Disabled block public access and added bucket policy.<br>
+Enabled static website hosting.<br>
+Successfully accessed the website via S3 endpoint.
+</p>
+
+<h4>S3 Setup</h4>
+<img src="images/s3-bucket.png" width="500">
+<img src="images/s3-website.png" width="500">
+
+<!-- Day 5 -->
+<h3>Friday(24/4/2026) - IAM Role & AWS CLI</h3>
+<p>
+Created an IAM Role for EC2 with AmazonS3ReadOnlyAccess policy.<br>
+Attached the IAM Role to EC2 instance.<br>
+Connected to EC2 via SSH and verified access to S3 using AWS CLI.<br>
+Successfully listed S3 bucket without using access keys.
+</p>
+
+<p>
+<strong>CLI Lab Summary:</strong><br>
+- CLI is a tool used to interact with AWS services.<br>
+- IAM Role provides permissions for CLI on EC2.<br>
+- Permissions determine whether an action is allowed or denied.<br>
+- Successfully listed S3 buckets but failed to upload file due to missing s3:PutObject permission.<br>
+- AccessDenied errors indicate missing permissions in the IAM policy.<br>
+</p>
+
+<h4>IAM Role Setup</h4>
+<img src="images/iam-role.png" width="500">
+<img src="images/ec2-role-attach.png" width="500">
+
+<h4>CLI Result</h4>
+<img src="images/cli-identity.png" width="500">
+<img src="images/cli-s3-list.png" width="500">
+<img src="images/cli-access-denied.png" width="500">
+
+</body>
+</html>
