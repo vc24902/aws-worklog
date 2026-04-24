@@ -2,3 +2,11 @@ baseURL = "https://vc24902.github.io/aws-worklog/"
 languageCode = "en-us"
 title = "AWS Worklog"
 theme = "ananke"
+
+canonifyURLs = true
+
+[outputs]
+home = ["HTML"]
+
+[params]
+mainSections = ["posts"]
