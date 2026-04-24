@@ -23,9 +23,9 @@ Logged in successfully using IAM user.
 <!-- Day 2 -->
 <h3>Tuesday(21/4/2026) - EC2</h3>
 <p>
-Launched an EC2 instance using Amazon Linux.
-Configured security group to allow SSH and HTTP access.
-Connected to the instance via SSH and installed Apache web server.
+Launched an EC2 instance using Amazon Linux.<br>
+Configured security group to allow SSH and HTTP access.<br>
+Connected to the instance via SSH and installed Apache web server.<br>
 Successfully deployed a simple web page.
 </p>
 
@@ -33,7 +33,7 @@ Successfully deployed a simple web page.
 <img src="images/ec2-web.png" width="500">
 
 <!-- Day 3 -->
-<h3>Wednesday(22/4/2026) - VPC & S3</h3>
+<h3>Wednesday(22/4/2026) - VPC</h3>
 <p>
 Created a custom VPC with CIDR block 10.0.0.0/16.<br>
 Created two subnets:
@@ -50,13 +50,6 @@ Configured route tables:
 Enabled auto-assign public IPv4 for public subnet.
 </p>
 
-<p>
-Created an S3 bucket and uploaded index.html.<br>
-Disabled block public access and added bucket policy.<br>
-Enabled static website hosting.<br>
-Successfully accessed the website via S3 endpoint.
-</p>
-
 <h4>VPC Setup</h4>
 <img src="images/vpc-overview.png" width="500">
 <img src="images/internet-gateway.png" width="500">
@@ -65,18 +58,28 @@ Successfully accessed the website via S3 endpoint.
 <img src="images/public-route-table.png" width="500">
 <img src="images/private-route-table.png" width="500">
 
+<!-- Day 4 -->
+<h3>Thursday(23/4/2026) - S3 Static Website</h3>
+<p>
+Created an S3 bucket and uploaded index.html.<br>
+Disabled block public access and added bucket policy.<br>
+Enabled static website hosting.<br>
+Successfully accessed the website via S3 endpoint.
+</p>
+
 <h4>S3 Setup</h4>
 <img src="images/s3-bucket.png" width="500">
 <img src="images/s3-website.png" width="500">
 
-<!-- Day 4 -->
-<h3>Thursday(23/4/2026) - IAM Role with EC2</h3>
+<!-- Day 5 -->
+<h3>Friday(24/4/2026) - IAM Role & AWS CLI</h3>
 <p>
 Created an IAM Role for EC2 with AmazonS3ReadOnlyAccess policy.<br>
 Attached the IAM Role to EC2 instance.<br>
 Connected to EC2 via SSH and verified access to S3 using AWS CLI.<br>
 Successfully listed S3 bucket without using access keys.
 </p>
+
 <p>
 <strong>CLI Lab Summary:</strong><br>
 - CLI is a tool used to interact with AWS services.<br>
@@ -90,13 +93,10 @@ Successfully listed S3 bucket without using access keys.
 <img src="images/iam-role.png" width="500">
 <img src="images/ec2-role-attach.png" width="500">
 
-<h4>Test IAM Role</h4>
-<img src="images/ssh-ec2.png" width="500">
-<img src="images/s3-access.png" width="500">
-
 <h4>CLI Result</h4>
 <img src="images/cli-identity.png" width="500">
 <img src="images/cli-s3-list.png" width="500">
 <img src="images/cli-access-denied.png" width="500">
+
 </body>
 </html>
