@@ -77,6 +77,14 @@ Attached the IAM Role to EC2 instance.<br>
 Connected to EC2 via SSH and verified access to S3 using AWS CLI.<br>
 Successfully listed S3 bucket without using access keys.
 </p>
+<p>
+<strong>CLI Lab Summary:</strong><br>
+- CLI is a tool used to interact with AWS services.<br>
+- IAM Role provides permissions for CLI on EC2.<br>
+- Permissions determine whether an action is allowed or denied.<br>
+- Successfully listed S3 buckets but failed to upload file due to missing s3:PutObject permission.<br>
+- AccessDenied errors indicate missing permissions in the IAM policy.<br>
+</p>
 
 <h4>IAM Role Setup</h4>
 <img src="images/iam-role.png" width="500">
@@ -86,5 +94,10 @@ Successfully listed S3 bucket without using access keys.
 <img src="images/ssh-ec2.png" width="500">
 <img src="images/s3-access.png" width="500">
 
+<h4>CLI Result</h4>
+<img src="images/cli-identity.png" width="500">
+<img src="images/cli-s3-list.png" width="500">
+<img src="images/cli-file-error.png" width="500">
+<img src="images/cli-access-denied.png" width="500">
 </body>
 </html>
