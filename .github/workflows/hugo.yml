@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true   # 🔥 QUAN TRỌNG (theme)
+          submodules: true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -26,8 +26,14 @@ jobs:
 
       - name: Build
         run: |
-          hugo --minify --baseURL "https://vc24902.github.io/aws-worklog/"
-          ls -la public   # 🔥 DEBUG (xem có index.html không)
+          hugo \
+            --minify \
+            --baseURL "https://vc24902.github.io/aws-worklog/" \
+            --disableKinds RSS
+
+          echo "===== DEBUG PUBLIC ====="
+          ls -la public
+          echo "========================"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
