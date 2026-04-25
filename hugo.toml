@@ -12,5 +12,4 @@ disableKinds = ["RSS"]   # 🔥 QUAN TRỌNG
 
 [params]
 mainSections = ["posts"]
-[params]
-  customCSS = ["css/style.css"]
+customCSS = ["css/style.css"]
