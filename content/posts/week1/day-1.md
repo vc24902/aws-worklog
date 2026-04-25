@@ -17,4 +17,7 @@ IAM setup completed successfully
 
 ## Images
 
-![iam](/images/IAM-group.png)
+![create-group](images/iam-group.png)
+![attach-policy](images/iam-policy.png)
+![create-user](images/iam-user.png)
+![add-user-group](images/iam-add-group.png)
