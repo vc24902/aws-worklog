@@ -3,16 +3,23 @@
 <head>
   <meta charset="utf-8">
   <title>{{ .Title }}</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 
 <body>
 
-  <!-- Sidebar -->
-  {{ partial "sidebar.html" . }}
+  <div style="display:flex;">
 
-  <!-- Main content -->
-  <div style="margin-left:300px; padding:20px;">
-    {{ block "main" . }}{{ end }}
+    <!-- Sidebar -->
+    {{ partial "sidebar.html" . }}
+
+    <!-- Main content -->
+    <main style="flex:1; padding:20px;">
+      {{ block "main" . }}{{ end }}
+    </main>
+
   </div>
 
 </body>
