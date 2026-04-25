@@ -1,0 +1,19 @@
+<div style="width:250px; float:left; padding:20px; background:#111; color:white; min-height:100vh;">
+  <h3>📚 AWS Worklog</h3>
+
+  {{ range .Site.Sections }}
+    <div style="margin-top:15px;">
+      <strong>{{ .Title }}</strong>
+
+      <ul style="list-style:none; padding-left:10px;">
+        {{ range .Pages }}
+          <li>
+            <a href="{{ .RelPermalink }}" style="color:#ccc; text-decoration:none;">
+              - {{ .Title }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+</div>
