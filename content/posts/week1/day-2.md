@@ -2,6 +2,7 @@
 title = "Day 2 - EC2"
 date = "2026-04-21"
 draft = false
+weight = 2
 +++
 
 ## What I did

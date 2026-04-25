@@ -2,6 +2,7 @@
 title = "Day 5 - IAM Role & AWS CLI"
 date = "2026-04-24"
 draft = false
+weight = 5
 +++
 
 ## What I did

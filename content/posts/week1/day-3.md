@@ -2,6 +2,7 @@
 title = "Day 3 - VPC"
 date = "2026-04-22"
 draft = false
+weight = 3
 +++
 
 ## What I did

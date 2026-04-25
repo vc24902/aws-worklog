@@ -2,6 +2,7 @@
 title = "Day 4 - S3 Static Website"
 date = "2026-04-23"
 draft = false
+weight = 4
 +++
 
 ## What I did

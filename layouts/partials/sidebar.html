@@ -1,28 +1,29 @@
-<div style="width:250px; float:left; padding:20px; background:#111; color:white; min-height:100vh;">
-  <h3>📚 AWS Worklog</h3>
+<div class="sidebar">
+  <h3 class="sidebar-title">📚 AWS Worklog</h3>
 
-  {{ range .Site.Sections }}   <!-- posts -->
-    <div style="margin-top:15px;">
-      <strong>{{ .Title }}</strong>
+  {{ $posts := .Site.GetPage "section" "posts" }}
 
-      {{ range .Sections }}    <!-- week1 -->
-        <div style="margin-left:10px; margin-top:10px;">
-          <strong>- {{ .Title }}</strong>
+  {{ if $posts }}
+    <div class="sidebar-section">
+      <strong class="sidebar-heading">{{ $posts.Title }}</strong>
 
-          <ul style="list-style:none; padding-left:15px;">
-            {{ range .RegularPages }}
+      {{ range $posts.Sections.ByWeight }}
+        <div class="sidebar-week">
+          <strong class="week-title">- {{ .Title }}</strong>
+
+          <ul class="day-list">
+            {{ range .RegularPages.ByWeight }}
               <li>
-                <a href="{{ .RelPermalink }}" style="color:#ccc; text-decoration:none;">
+                <a href="{{ .RelPermalink }}"
+                   class="sidebar-link {{ if eq .Permalink $.Permalink }}active{{ end }}">
                   {{ .Title }}
                 </a>
               </li>
             {{ end }}
           </ul>
-
         </div>
       {{ end }}
 
     </div>
   {{ end }}
-
 </div>
