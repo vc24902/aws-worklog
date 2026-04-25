@@ -1,19 +1,27 @@
 <div style="width:250px; float:left; padding:20px; background:#111; color:white; min-height:100vh;">
   <h3>📚 AWS Worklog</h3>
 
-  {{ range .Site.Sections }}
+  {{ range .Site.Sections }}   <!-- posts -->
     <div style="margin-top:15px;">
       <strong>{{ .Title }}</strong>
 
-      <ul style="list-style:none; padding-left:10px;">
-        {{ range .RegularPages }}
-          <li>
-            <a href="{{ .RelPermalink }}" style="color:#ccc; text-decoration:none;">
-              - {{ .Title }}
-            </a>
-          </li>
-        {{ end }}
-      </ul>
+      {{ range .Site.Sections }}
+        {{ range .Sections }}    <!-- week1 -->
+        <div style="margin-left:10px; margin-top:10px;">
+          <strong>- {{ .Title }}</strong>
+
+          <ul style="list-style:none; padding-left:15px;">
+            {{ range .RegularPages }}
+              <li>
+                <a href="{{ .RelPermalink }}" style="color:#ccc; text-decoration:none;">
+                  {{ .Title }}
+                </a>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
+      {{ end }}
+
     </div>
   {{ end }}
 </div>
