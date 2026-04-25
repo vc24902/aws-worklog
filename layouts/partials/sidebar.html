@@ -5,8 +5,7 @@
     <div style="margin-top:15px;">
       <strong>{{ .Title }}</strong>
 
-      {{ range .Site.Sections }}
-        {{ range .Sections }}    <!-- week1 -->
+      {{ range .Sections }}    <!-- week1 -->
         <div style="margin-left:10px; margin-top:10px;">
           <strong>- {{ .Title }}</strong>
 
@@ -19,9 +18,11 @@
               </li>
             {{ end }}
           </ul>
+
         </div>
       {{ end }}
 
     </div>
   {{ end }}
+
 </div>
