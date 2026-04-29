@@ -6,7 +6,6 @@ weight = 2
 +++
 
 ## What I did
-
 - Created IAM Role for EC2
 - Attached AmazonS3ReadOnlyAccess policy
 - Launched EC2 with IAM Role
