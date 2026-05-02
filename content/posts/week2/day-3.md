@@ -22,7 +22,7 @@ weight = 3
 
 ![user-data](/images/user-data.png)
 ![ec2-running](/images/ec2-running.png)
-![ec2-web](/images/ec2-web-data.png)-
+![ec2-web](/images/ec2-web-data.png)
 ## User Data Script
 
 
