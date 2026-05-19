@@ -15,10 +15,10 @@ Learn how to secure private EC2 instances using a Bastion Host architecture.
 
 ## Architecture
 
-Laptop
-↓
-Public EC2 (Bastion Host)
-↓
+Laptop  
+↓  
+Public EC2 (Bastion Host)  
+↓  
 Private EC2 (private-app)
 
 ---
@@ -27,35 +27,35 @@ Private EC2 (private-app)
 
 ### 1. Created Bastion Security Group
 
-![bastion-sg](images/bastion-sg.png)
+![bastion-sg](/images/bastion-sg.png)
 
 Created `Bastion-SG` with:
 
 - SSH (22)
 - Source: My IP
 
-Purpose:
+Purpose:  
 Allow only my laptop to SSH into the bastion server.
 
 ---
 
 ### 2. Updated Database Security Group
 
-![database-sg](images/database-sg.png)
+![database-sg](/images/database-sg.png)
 
 Modified `Database-SG`:
 
 - SSH (22)
 - Source: Bastion-SG
 
-Purpose:
+Purpose:  
 Allow SSH access only from the bastion host.
 
 ---
 
 ### 3. Created Private EC2
 
-![private-ec2](images/private-ec2.png)
+![private-ec2](/images/private-ec2.png)
 
 Launched EC2 instance:
 
@@ -65,14 +65,14 @@ Launched EC2 instance:
 - No Public IP
 - Attached `Database-SG`
 
-Purpose:
+Purpose:  
 Simulate a production private server.
 
 ---
 
 ### 4. SSH Into Bastion Host
 
-![ssh-bastion](images/ssh-bastion.png)
+![ssh-bastion](/images/ssh-bastion.png)
 
 Connected from local machine to public EC2.
 
@@ -82,24 +82,9 @@ ssh -i new-key.pem ec2-user@98.94.13.22
 
 ---
 
-### 5. Copied PEM Key To Bastion
+### 5. SSH Into Private EC2
 
-![copy-pem](images/copy-pem.png)
-
-Copied PEM key from local machine to bastion host.
-
-```bash
-scp -i new-key.pem new-key.pem ec2-user@98.94.13.22:/home/ec2-user/
-```
-
-Purpose:
-Allow bastion host to SSH into private EC2.
-
----
-
-### 6. SSH Into Private EC2
-
-![ssh-private](images/ssh-private.png)
+![ssh-private](/images/ssh-private.png)
 
 From bastion host:
 
@@ -117,7 +102,7 @@ Successfully connected to private server.
 
 ### Hostname
 
-![hostname-test](images/hostname-test.png)
+![hostname-test](/images/hostname-test.png)
 
 ```bash
 hostname
@@ -133,7 +118,7 @@ ip-172-31-16-121.ec2.internal
 
 ### Private IP
 
-![private-ip](images/private-ip.png)
+![private-ip](/images/private-ip.png)
 
 ```bash
 hostname -I
@@ -149,7 +134,7 @@ Result:
 
 ### Ping Test
 
-![ping-test](images/ping-test.png)
+![ping-test](/images/ping-test.png)
 
 ```bash
 ping google.com
