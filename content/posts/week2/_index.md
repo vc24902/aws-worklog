@@ -2,6 +2,7 @@
 title = "Week 2 - Core AWS"
 date = "2026-04-21"
 draft = false
+weight = 2
 +++
 
 ## Overview

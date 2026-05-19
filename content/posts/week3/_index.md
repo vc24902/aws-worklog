@@ -2,6 +2,7 @@
 title = "Week 3 - Network"
 date = "2026-05-19"
 draft = false
+weight = 3
 +++
 
 ## Overview
