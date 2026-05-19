@@ -1,5 +1,5 @@
 +++
-title = "Day 1 - Security Group Basic"
+title = "Day 1 - Security Group Fundamentals"
 date = "2026-05-04"
 draft = false
 weight = 1

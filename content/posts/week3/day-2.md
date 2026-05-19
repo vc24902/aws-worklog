@@ -1,5 +1,5 @@
 +++
-title = "Day 2 - Security Group Basic"
+title = "Day 2 - Security Group Web Server Rules"
 date = "2026-05-05"
 draft = false
 weight = 2
