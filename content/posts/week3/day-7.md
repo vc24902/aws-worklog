@@ -96,7 +96,7 @@ This instance acts as:
 
 ### 4. Configured Apache Web Server
 
-![web-browser-test](/images/web-browser-test.png)
+![web-browser-test](/images/web-browser-testt.png)
 
 Used EC2 User Data to automatically install Apache.
 
