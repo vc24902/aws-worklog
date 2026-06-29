@@ -17,7 +17,3 @@ weight = 4
 
 Website successfully accessible via S3 endpoint
 
-## Images
-
-![s3](/images/s3-bucket.png)
-![web](/images/s3-website.png)

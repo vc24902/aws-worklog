@@ -34,28 +34,4 @@ aws s3 cp test.txt s3://chien-s3-667802015889-us-east-1-an/
 * Observed AccessDenied due to explicit deny policy
 * Confirmed that Deny overrides Allow in IAM
 
-## Images
 
-### CLI Configuration
-
-![cli-config](/images/cli-config.png)
-
-### IAM Identity Verification
-
-![cli-identity](/images/cli-identity.png)
-
-### Upload File to S3 (Success)
-
-![s3-upload](/images/s3-upload.png)
-
-### List Files in S3 Bucket
-
-![s3-list](/images/s3-list.png)
-
-### IAM Policy (Explicit Deny)
-
-![iam-deny-policy](/images/iam-deny-policy.png)
-
-### Access Denied (After Policy Applied)
-
-![access-denied](/images/access-denied.png)

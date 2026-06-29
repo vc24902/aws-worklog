@@ -20,8 +20,3 @@ weight = 1
 - Bucket Policy controls access
 - Block Public Access affects public access behavior
 
-## Images
-
-![s3-denied](/images/s3-denied.png)
-![s3-block](/images/s3-block.png)
-![s3-public](/images/s3-public.png)

@@ -1,6 +1,6 @@
 +++
 title = "Day 4 - Network ACL (NACL)"
-date = "2026-05-19"
+date = "2026-05-07"
 draft = false
 weight = 4
 +++
@@ -27,14 +27,3 @@ Learned the difference between:
 
 Also understood that NACL is stateless, so both inbound and outbound rules are required.
 
-## Images
-
-![web-nacl-create](/images/web-nacl-create.png)
-
-![web-nacl-subnet](/images/web-nacl-subnet.png)
-
-![web-nacl-inbound](/images/web-nacl-inbound.png)
-
-![web-nacl-outbound](/images/web-nacl-outbound.png)
-
-![web-nacl-browser-test](/images/web-nacl-browser-test.png)

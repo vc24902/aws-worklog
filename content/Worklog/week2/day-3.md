@@ -18,11 +18,7 @@ weight = 3
 - Apache web server installed without manual SSH
 - Web page deployed successfully using User Data
 - Application accessible via public IP
-## Images
 
-![user-data](/images/user-data.png)
-![ec2-running](/images/ec2-running.png)
-![ec2-web](/images/ec2-web-data.png)
 ## User Data Script
 
 

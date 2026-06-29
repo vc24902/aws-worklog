@@ -1,6 +1,6 @@
 +++
 title = "Day 5 - Bastion Host Architecture"
-date = "2026-05-19"
+date = "2026-05-08"
 draft = false
 weight = 5
 +++
@@ -27,7 +27,6 @@ Private EC2 (private-app)
 
 ### 1. Created Bastion Security Group
 
-![bastion-sg](/images/bastion-sg.png)
 
 Created `Bastion-SG` with:
 
@@ -41,7 +40,7 @@ Allow only my laptop to SSH into the bastion server.
 
 ### 2. Updated Database Security Group
 
-![database-sg](/images/database-sg.png)
+
 
 Modified `Database-SG`:
 
@@ -55,7 +54,7 @@ Allow SSH access only from the bastion host.
 
 ### 3. Created Private EC2
 
-![private-ec2](/images/private-ec2.png)
+
 
 Launched EC2 instance:
 
@@ -72,7 +71,7 @@ Simulate a production private server.
 
 ### 4. SSH Into Bastion Host
 
-![ssh-bastion](/images/ssh-bastion.png)
+
 
 Connected from local machine to public EC2.
 
@@ -84,7 +83,7 @@ ssh -i new-key.pem ec2-user@98.94.13.22
 
 ### 5. SSH Into Private EC2
 
-![ssh-private](/images/ssh-private.png)
+
 
 From bastion host:
 
@@ -102,7 +101,7 @@ Successfully connected to private server.
 
 ### Hostname
 
-![hostname-test](/images/hostname-test.png)
+
 
 ```bash
 hostname
@@ -118,7 +117,7 @@ ip-172-31-16-121.ec2.internal
 
 ### Private IP
 
-![private-ip](/images/private-ip.png)
+
 
 ```bash
 hostname -I
@@ -134,7 +133,7 @@ Result:
 
 ### Ping Test
 
-![ping-test](/images/ping-test.png)
+
 
 ```bash
 ping google.com

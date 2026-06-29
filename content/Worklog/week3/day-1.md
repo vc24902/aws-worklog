@@ -19,10 +19,3 @@ weight = 1
 
 Successfully configured Security Group and accessed EC2 web server using public IP
 
-## Images
-
-![launch-ec2](/images/week3-ec2-launch.png)
-![security-group](/images/week3-security-group.png)
-![http-rule](/images/week3-http-rule.png)
-![ssh-connect](/images/week3-ssh-connect.png)
-![web-result](/images/week3-web-result.png)

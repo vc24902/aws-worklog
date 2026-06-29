@@ -1,6 +1,6 @@
 +++
 title = "Day 7 - Mini Enterprise Network Project"
-date = "2026-05-20"
+date = "2026-05-10"
 draft = false
 weight = 7
 +++
@@ -42,7 +42,7 @@ Private App Server
 
 ### 1. Created Bastion Security Group
 
-![bastion-sg](/images/bastion-sgg.png)
+
 
 Created `Bastion-SG` with:
 
@@ -60,7 +60,7 @@ Purpose:
 
 ### 2. Created Private Security Group
 
-![private-sg](/images/private-sgg.png)
+
 
 Created `Private-SG` with:
 
@@ -76,7 +76,7 @@ Allow SSH access only from the Bastion Host.
 
 ### 3. Launched Public Bastion/Web Server
 
-![bastion-web](/images/bastion-web.png)
+
 
 Created EC2 instance:
 
@@ -96,7 +96,7 @@ This instance acts as:
 
 ### 4. Configured Apache Web Server
 
-![web-browser-test](/images/web-browser-testt.png)
+
 
 Used EC2 User Data to automatically install Apache.
 
@@ -117,7 +117,6 @@ Successfully accessed the web server from browser using the Public IP.
 
 ### 5. Launched Private App Server
 
-![private-app](/images/private-app.png)
 
 Created EC2 instance:
 
@@ -136,7 +135,7 @@ Create an internal server isolated from the public internet.
 
 ### 6. Direct SSH To Private Server Failed
 
-![private-timeout](/images/private-timeout.png)
+
 
 Tested:
 
@@ -160,7 +159,7 @@ Meaning:
 
 ### 7. SSH Into Bastion Host
 
-![ssh-bastion](/images/ssh-bastionn.png)
+
 
 Successfully connected from laptop to Bastion Host.
 
@@ -172,7 +171,6 @@ ssh -i new-key.pem ec2-user@32.197.42.166
 
 ### 8. SSH From Bastion To Private Server
 
-![ssh-private](/images/ssh-privatee.png)
 
 From Bastion Host:
 

@@ -71,12 +71,4 @@ echo "🔥 Connected to RDS successfully!";
 * Blank page
   → Fix: kiểm tra file index.php và service httpd
 
-## Images
 
-![httpd](/images/ec2-httpd.png)
-
-![sg](/images/sg-http.png)
-
-![php](/images/index-php.png)
-
-![web](/images/web-result.png)

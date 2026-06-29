@@ -24,11 +24,3 @@ weight = 3
 
 Network architecture successfully configured
 
-## Images
-
-![vpc](/images/vpc-overview.png)
-![igw](/images/internet-gateway.png)
-![public](/images/public-subnet.png)
-![private](/images/private-subnet.png)
-![rt1](/images/public-route-table.png)
-![rt2](/images/private-route-table.png)

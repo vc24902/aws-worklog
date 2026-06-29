@@ -17,7 +17,3 @@ weight = 2
 
 Web server running successfully on EC2
 
-## Images
-
-![ec2](/images/ec2-running-ip.png)
-![web](/images/ec2-web.png)

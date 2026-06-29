@@ -57,14 +57,3 @@ sudo dnf install mariadb105 -y
 * Connection timeout
   → Fixed by checking VPC, subnet and Public access settings
 
-## Images
-
-![ec2-launch](/images/ec2-launch-rds.png)
-
-![rds-create](/images/rds-create.png)
-
-![security-group](/images/sg-3306.png)
-
-![connect-success](/images/connect-success.png)
-
-![db-result](/images/db-result.png)

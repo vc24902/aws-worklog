@@ -27,8 +27,3 @@ weight = 5
 - Permissions control access (allow/deny)
 - AccessDenied occurs when permission is missing
 
-## Images
-
-![identity](/images/cli-identity.png)
-![s3](/images/cli-s3-list.png)
-![error](/images/cli-access-denied.png)

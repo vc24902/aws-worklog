@@ -24,9 +24,3 @@ Successfully configured Security Group rules and secured EC2 access.
 | 22 | SSH | My IP |
 | 80 | HTTP | 0.0.0.0/0 |
 
-## Images
-
-![create-security-group](/images/sg-create.png)
-![incoming-rules](/images/sg-rules.png)
-![attach-security-group](/images/sg-attach.png)
-![web-test](/images/sg-web-test.png)

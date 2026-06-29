@@ -1,6 +1,6 @@
 +++
 title = "Day 3 - Private EC2 with Security Group"
-date = "2026-05-19"
+date = "2026-05-06"
 draft = false
 weight = 3
 +++
@@ -22,10 +22,3 @@ Successfully created a private EC2 instance that cannot be accessed directly fro
 
 Internet → Public EC2 (`sg-lab`) → Private EC2 (`private-dbb`)
 
-## Images
-
-![database-sg](/images/database-sg.png)
-
-![disable-public-ip](/images/disable-public-ip.png)
-
-![private-instance](/images/private-instance.png)

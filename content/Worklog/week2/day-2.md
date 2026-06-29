@@ -11,10 +11,7 @@ weight = 2
 - Launched EC2 with IAM Role
 - Connected to EC2 using browser SSH
 - Tested S3 access using AWS CLI
-## Images
 
-![ec2-connect](/images/ec2-connect.png)
-![s3-list](/images/s3-list.png)
 ## Commands
 
 ```bash

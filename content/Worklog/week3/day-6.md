@@ -1,6 +1,6 @@
 +++
 title = "Day 6 - Route Table and Public/Private Subnet"
-date = "2026-05-20"
+date = "2026-05-09"
 draft = false
 weight = 6
 +++
@@ -44,7 +44,7 @@ Private EC2
 
 ### 1. Created Public Subnet
 
-![public-subnet](/images/public-subnett.png)
+
 
 Created subnet:
 
@@ -64,7 +64,7 @@ Examples:
 
 ### 2. Created Private Subnet
 
-![private-subnet](/images/private-subnett.png)
+
 
 Created subnet:
 
@@ -84,7 +84,6 @@ Examples:
 
 ### 3. Created Public Route Table
 
-![public-rt-routes](/images/public-rt-routes.png)
 
 Created `Public-RT`.
 
@@ -101,7 +100,7 @@ Allow internet traffic through the Internet Gateway.
 
 ### 4. Associated Public Subnet
 
-![public-rt-association](/images/public-rt-association.png)
+
 
 Associated:
 
@@ -116,7 +115,7 @@ EC2 instances inside `public-subnet` can access the internet.
 
 ### 5. Created Private Route Table
 
-![private-rt-routes](/images/private-rt-routes.png)
+
 
 Created `Private-RT`.
 
@@ -133,7 +132,7 @@ Keep private subnet isolated from direct internet access.
 
 ### 6. Associated Private Subnet
 
-![private-rt-association](/images/private-rt-association.png)
+
 
 Associated:
 
