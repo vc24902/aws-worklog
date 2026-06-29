@@ -1,6 +1,6 @@
 +++
 title = "Day 3 - Application Load Balancer"
-date = "2026-07-01"
+date = "2026-05-13"
 draft = false
 weight = 3
 +++

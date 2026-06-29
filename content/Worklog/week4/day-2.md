@@ -1,6 +1,6 @@
 +++
 title = "Day 2 - Auto Scaling Policies"
-date = "2026-06-30"
+date = "2026-05-12"
 draft = false
 weight = 2
 +++

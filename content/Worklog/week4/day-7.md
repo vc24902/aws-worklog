@@ -1,6 +1,6 @@
 +++
 title = "Day 7 - Highly Available Web Application"
-date = "2026-07-05"
+date = "2026-05-17"
 draft = false
 weight = 7
 +++
