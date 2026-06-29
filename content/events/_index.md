@@ -1,8 +1,8 @@
 ---
 title: "Events Participated"
-weight: 1
+weight: 2
+draft: false
 ---
-
 # Events Participated
 
 During my AWS Cloud learning journey, I participated in several technical events and workshops organized by AWS communities. These events provided opportunities to learn from industry experts, explore new cloud technologies, and connect with other cloud enthusiasts.

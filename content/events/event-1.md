@@ -1,7 +1,7 @@
-```markdown
 ---
 title: "Event 1 - FCAJ Community Day"
 weight: 1
+draft: false
 ---
 
 # FCAJ Community Day
