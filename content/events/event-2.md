@@ -161,5 +161,5 @@ Besides gaining technical knowledge, I had opportunities to discuss cloud techno
 
 ## Meeting Overview
 
-![Meeting Overview](/images/event2/meeting-overview.jpg)
+![Meeting Overview](/images/meeting-overview.jpg)
 
