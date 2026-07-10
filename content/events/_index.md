@@ -20,3 +20,4 @@ The following pages summarize each event, including:
 
 - Event 1 – FCAJ Community Day
 - Event 2 – AWS Workshop
+- Event 3 – FCAJ Community Day
