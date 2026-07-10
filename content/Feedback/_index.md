@@ -46,4 +46,4 @@ Through the program, I improved my:
 
 # Final Thoughts
 
-I appreciate the effort of all mentors and organizers in building this learning community. The FCAJ program has motivated me to continue learning AWS Cloud and pursue a career in Cloud Computing.
+I appreciate the effort of all mentors and organizers in building this learning community. The FCAJ program has motivated me to continue learning AWS Cloud and pursue a career in Cloud Computing. 

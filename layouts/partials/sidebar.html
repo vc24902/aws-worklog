@@ -1,47 +1,43 @@
 <div class="sidebar">
 
-<!-- 🌐 Language -->
-<div class="sidebar-section">
+  <!-- 🌐 Language -->
+  <div class="sidebar-section">
 
-  <strong class="sidebar-heading">
-    🌐 Language
-  </strong>
+    <strong class="sidebar-heading">
+      🌐 Language
+    </strong>
 
-  <ul class="day-list">
+    <ul class="day-list">
 
-    {{ if eq .Language.Lang "en" }}
+      {{ if eq .Language.Lang "en" }}
 
-      <li>
-        <strong>🇺🇸 English</strong>
-      </li>
+        <li><strong>🇺🇸 English</strong></li>
 
-      <li>
-        {{ range .Translations }}
-          {{ if eq .Language.Lang "vi" }}
-            <a href="{{ .RelPermalink }}">🇻🇳 Tiếng Việt</a>
+        <li>
+          {{ range .Translations }}
+            {{ if eq .Language.Lang "vi" }}
+              <a href="{{ .RelPermalink }}">🇻🇳 Tiếng Việt</a>
+            {{ end }}
           {{ end }}
-        {{ end }}
-      </li>
+        </li>
 
-    {{ else }}
+      {{ else }}
 
-      <li>
-        {{ range .Translations }}
-          {{ if eq .Language.Lang "en" }}
-            <a href="{{ .RelPermalink }}">🇺🇸 English</a>
+        <li>
+          {{ range .Translations }}
+            {{ if eq .Language.Lang "en" }}
+              <a href="{{ .RelPermalink }}">🇺🇸 English</a>
+            {{ end }}
           {{ end }}
-        {{ end }}
-      </li>
+        </li>
 
-      <li>
-        <strong>🇻🇳 Tiếng Việt</strong>
-      </li>
+        <li><strong>🇻🇳 Tiếng Việt</strong></li>
 
-    {{ end }}
+      {{ end }}
 
-  </ul>
+    </ul>
 
-</div>
+  </div>
 
   <h3 class="sidebar-title">📚 AWS Worklog</h3>
 
@@ -90,8 +86,27 @@
 
         <ul class="day-list">
 
-          {{ range .RegularPages.ByWeight }}
+          <!-- Nếu section có các bài con -->
+          {{ if gt (len .RegularPages) 0 }}
 
+            {{ range .RegularPages.ByWeight }}
+
+              <li>
+
+                <a href="{{ .RelPermalink }}"
+                   class="sidebar-link {{ if eq .Permalink $.Permalink }}active{{ end }}">
+
+                  {{ .Title }}
+
+                </a>
+
+              </li>
+
+            {{ end }}
+
+          {{ else }}
+
+            <!-- Nếu section chỉ có _index.md -->
             <li>
 
               <a href="{{ .RelPermalink }}"
