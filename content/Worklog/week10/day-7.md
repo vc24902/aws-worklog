@@ -18,4 +18,4 @@ weight = 7
 - Strengthened understanding of Serverless Computing.
 - Improved knowledge of AWS serverless services.
 - Built a stronger foundation for developing cloud-native applications.
-- Successfully completed the Week 10 learning objectives.
+- Successfully completed the Week 10 learning objectives.   

@@ -18,4 +18,4 @@ weight = 1
 - Understood the purpose of AWS Systems Manager.
 - Learned how Systems Manager simplifies EC2 administration.
 - Identified the main components of Systems Manager.
-- Built a foundation for the upcoming hands-on exercises.
+- Built a foundation for the upcoming hands-on exercises.   

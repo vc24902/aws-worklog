@@ -18,4 +18,4 @@ weight = 1
 - Understood the purpose of Infrastructure as Code.
 - Learned the benefits of infrastructure automation.
 - Built a foundation for using AWS CloudFormation.
-- Improved understanding of modern cloud deployment practices.
+- Improved understanding of modern cloud deployment practices.  
