@@ -8,8 +8,14 @@ canonifyURLs = true
 [outputs]
 home = ["HTML"]
 
-disableKinds = ["RSS"]   # 🔥 QUAN TRỌNG
+disableKinds = ["RSS"]
 
 [params]
 mainSections = ["posts"]
 customCSS = ["css/style.css"]
+
+# Cho phép HTML trong Markdown
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
