@@ -1,39 +1,47 @@
 <div class="sidebar">
 
-  <!-- 🌐 Language -->
-  <div class="sidebar-section">
+<!-- 🌐 Language -->
+<div class="sidebar-section">
 
-    <strong class="sidebar-heading">
-      🌐 Language
-    </strong>
+  <strong class="sidebar-heading">
+    🌐 Language
+  </strong>
 
-    <ul class="day-list">
+  <ul class="day-list">
 
-      <!-- English -->
+    {{ if eq .Language.Lang "en" }}
+
       <li>
-        {{ if eq .Language.Lang "en" }}
-          <strong>🇺🇸 English</strong>
-        {{ else }}
-          <a href="{{ .RelPermalink }}">🇺🇸 English</a>
-        {{ end }}
+        <strong>🇺🇸 English</strong>
       </li>
 
-      <!-- Vietnamese -->
       <li>
-        {{ if .IsTranslated }}
-          {{ range .Translations }}
-            {{ if eq .Language.Lang "vi" }}
-              <a href="{{ .RelPermalink }}">🇻🇳 Tiếng Việt</a>
-            {{ end }}
+        {{ range .Translations }}
+          {{ if eq .Language.Lang "vi" }}
+            <a href="{{ .RelPermalink }}">🇻🇳 Tiếng Việt</a>
           {{ end }}
-        {{ else }}
-          <span style="color:#888;">🇻🇳 Tiếng Việt</span>
         {{ end }}
       </li>
 
-    </ul>
+    {{ else }}
 
-  </div>
+      <li>
+        {{ range .Translations }}
+          {{ if eq .Language.Lang "en" }}
+            <a href="{{ .RelPermalink }}">🇺🇸 English</a>
+          {{ end }}
+        {{ end }}
+      </li>
+
+      <li>
+        <strong>🇻🇳 Tiếng Việt</strong>
+      </li>
+
+    {{ end }}
+
+  </ul>
+
+</div>
 
   <h3 class="sidebar-title">📚 AWS Worklog</h3>
 
