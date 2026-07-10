@@ -1,11 +1,20 @@
-<div style="background:red;color:white;padding:10px;">
-IsTranslated = {{ .IsTranslated }} <br>
-Translations = {{ len .Translations }} <br>
-Current Language = {{ .Language.Lang }}
-</div>
+<div style="position:absolute;top:15px;right:20px;z-index:9999;
+background:red;color:white;padding:10px;">
+
+Current language: {{ .Language.Lang }} <br>
+
+IsTranslated: {{ .IsTranslated }} <br>
+
+Translations: {{ len .Translations }}
+
+<hr>
 
 {{ range .Translations }}
-    <a href="{{ .RelPermalink }}" style="margin-right:10px;">
-        {{ .Language.LanguageName }}
-    </a>
+
+<a href="{{ .RelPermalink }}" style="color:yellow;">
+{{ .Language.LanguageName }}
+</a><br>
+
 {{ end }}
+
+</div>
