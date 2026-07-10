@@ -31,7 +31,7 @@ This Infrastructure as Code solution automates Storage Gateway migration while i
 
 ## Link
 
-https://aws.amazon.com/vi/blogs/storage/scale-your-aws-storage-gateway-al2023-migration-with-infrastructure-as-code/
+https://www.facebook.com/groups/awsstudygroupfcj/permalink/2200302014068092/?rdid=9X5NjrHKM6BsWmWU#
 
 ---
 

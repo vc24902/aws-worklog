@@ -35,7 +35,7 @@ Kiến trúc này cho thấy cách các dịch vụ AI của AWS giúp tự đ�
 
 ## Liên kết
 
-https://aws.amazon.com/vi/blogs/architecture/automating-contract-intelligence-with-doczy-ai-on-aws/
+https://www.facebook.com/groups/awsstudygroupfcj/permalink/2199556717475955/?rdid=PDmR1hagSXBb7pXj#
 
 ---
 

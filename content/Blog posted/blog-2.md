@@ -36,7 +36,7 @@ This architecture demonstrates how AWS AI services improve enterprise document p
 
 ## Link
 
-https://aws.amazon.com/vi/blogs/architecture/automating-contract-intelligence-with-doczy-ai-on-aws/
+https://www.facebook.com/groups/awsstudygroupfcj/permalink/2199556717475955/?rdid=PDmR1hagSXBb7pXj#
 
 ---
 

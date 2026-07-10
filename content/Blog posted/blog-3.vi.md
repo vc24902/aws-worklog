@@ -33,8 +33,7 @@ Giải pháp Infrastructure as Code giúp việc nâng cấp Storage Gateway tr�
 
 ## Liên kết
 
-https://aws.amazon.com/vi/blogs/storage/scale-your-aws-storage-gateway-al2023-migration-with-infrastructure-as-code/
-
+https://www.facebook.com/groups/awsstudygroupfcj/permalink/2200302014068092/?rdid=9X5NjrHKM6BsWmWU#
 ---
 
 ## Tài liệu

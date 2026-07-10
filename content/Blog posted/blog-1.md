@@ -34,7 +34,7 @@ This feature makes Amazon EKS Pod Identity more secure, scalable and easier to m
 
 ## Link
 
-https://aws.amazon.com/blogs/containers/amazon-eks-pod-identity-now-supports-session-policies/
+https://www.facebook.com/groups/awsstudygroupfcj/permalink/2203023237129303/?rdid=X5P0romMAosoDmk5#
 
 ---
 
