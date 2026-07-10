@@ -5,7 +5,6 @@ draft = false
 weight = 1
 +++
 
-⚠️ Lưu ý: Nội dung dưới đây chỉ mang tính tham khảo. Vui lòng không sao chép nguyên văn vào báo cáo của bạn.
 
 # SESSION POLICIES TRONG AMAZON EKS POD IDENTITY
 

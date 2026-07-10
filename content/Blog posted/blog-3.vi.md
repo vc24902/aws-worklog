@@ -5,7 +5,6 @@ draft = false
 weight = 3
 +++
 
-⚠️ Lưu ý: Nội dung dưới đây chỉ mang tính tham khảo. Vui lòng không sao chép nguyên văn vào báo cáo của bạn.
 
 # TỰ ĐỘNG HÓA NÂNG CẤP AWS STORAGE GATEWAY LÊN AL2023 BẰNG INFRASTRUCTURE AS CODE
 

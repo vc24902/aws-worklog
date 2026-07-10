@@ -5,7 +5,7 @@ draft = false
 weight = 1
 +++
 
-⚠️ Note: The information below is for reference purposes only. Please do not copy verbatim for your report, including this warning.
+
 
 # SESSION POLICIES IN AMAZON EKS POD IDENTITY
 

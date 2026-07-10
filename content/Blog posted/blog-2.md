@@ -5,7 +5,6 @@ draft = false
 weight = 2
 +++
 
-⚠️ Note: The information below is for reference purposes only. Please do not copy verbatim for your report, including this warning.
 
 # AUTOMATING CONTRACT INTELLIGENCE WITH DOCZY.AI ON AWS
 

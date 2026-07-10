@@ -5,7 +5,7 @@ draft = false
 weight = 3
 +++
 
-⚠️ Note: The information below is for reference purposes only. Please do not copy verbatim for your report, including this warning.
+
 
 # SCALE AWS STORAGE GATEWAY AL2023 MIGRATION WITH INFRASTRUCTURE AS CODE
 

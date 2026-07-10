@@ -5,7 +5,7 @@ draft = false
 weight = 2
 +++
 
-⚠️ Lưu ý: Nội dung dưới đây chỉ mang tính tham khảo. Vui lòng không sao chép nguyên văn vào báo cáo của bạn.
+
 
 # TỰ ĐỘNG HÓA PHÂN TÍCH HỢP ĐỒNG VỚI DOCZY.AI TRÊN AWS
 
