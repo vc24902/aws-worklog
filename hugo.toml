@@ -8,24 +8,19 @@ canonifyURLs = true
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
+disableKinds = ["RSS"]
+
 [outputs]
 home = ["HTML"]
-
-disableKinds = ["RSS"]
 
 [params]
 mainSections = ["posts"]
 customCSS = ["css/style.css"]
 
-# Cho phép HTML trong Markdown
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-############################
-# Languages
-############################
 
 [languages]
 
