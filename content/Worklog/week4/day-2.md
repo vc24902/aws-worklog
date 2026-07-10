@@ -1,5 +1,5 @@
 +++
-title = "Day 2 - Auto Scaling Policies"
+title = "Day 2 - Auto Scaling Groups"
 date = "2026-05-12"
 draft = false
 weight = 2
@@ -7,15 +7,15 @@ weight = 2
 
 ## What I did
 
-* Learned different Auto Scaling policies
-* Explored Target Tracking Scaling Policy
-* Explored Step Scaling Policy
-* Explored Simple Scaling Policy
-* Compared scaling strategies
-* Learned CloudWatch metrics used by Auto Scaling
+- Learned the fundamentals of Auto Scaling Groups.
+- Explored desired, minimum and maximum capacity.
+- Reviewed how Auto Scaling maintains application availability.
+- Studied automatic instance replacement.
+- Learned common Auto Scaling scenarios.
 
 ## Result
 
-* Understood how Auto Scaling reacts to workload changes
-* Learned when to scale out and scale in
-* Understood CloudWatch integration with Auto Scaling
+- Understood how Auto Scaling Groups work.
+- Learned how AWS automatically maintains EC2 capacity.
+- Improved knowledge of application availability.
+- Prepared for learning scaling policies.

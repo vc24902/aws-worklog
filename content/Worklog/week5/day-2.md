@@ -1,5 +1,5 @@
 +++
-title = "Day 2 - CloudWatch Logs"
+title = "Day 2 - CloudWatch Metrics"
 date = "2026-05-19"
 draft = false
 weight = 2
@@ -7,15 +7,15 @@ weight = 2
 
 ## What I did
 
-- Learned the architecture of Amazon CloudWatch Logs.
-- Created CloudWatch Log Groups.
-- Configured Log Streams.
-- Collected logs from EC2 instances.
-- Reviewed log retention settings.
+- Learned how CloudWatch collects resource metrics.
+- Explored common EC2 metrics such as CPU utilization and network usage.
+- Reviewed the CloudWatch Metrics console.
+- Studied how metrics are displayed over time.
+- Learned how metrics support performance monitoring.
 
 ## Result
 
-- Successfully created CloudWatch Log Groups.
-- Verified application and system logs were collected correctly.
-- Learned centralized log management for AWS resources.
-- Improved understanding of troubleshooting using CloudWatch Logs.
+- Understood how CloudWatch Metrics work.
+- Learned how to monitor EC2 performance.
+- Improved understanding of resource utilization.
+- Identified common metrics used for system monitoring.

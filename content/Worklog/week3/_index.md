@@ -1,5 +1,5 @@
 +++
-title = "Week 3 - Network"
+title = "Week 3 - Network Fundamentals"
 date = "2026-05-04"
 draft = false
 weight = 3
@@ -10,14 +10,9 @@ weight = 3
 This week focuses on:
 
 - Security Groups
-- Security Groups advanced
-- NACL
-- NACL advanced
+- Security Groups Hands-on
+- Network ACL (NACL)
 - VPC Flow Logs
-- Route optimization
-- DNS basics
-- Route53 intro
-- Hybrid DNS
+- DNS Basics
+- Amazon Route 53 Introduction
 - VPC Peering
-- Transit Gateway
-- VPC Endpoint (Private S3 access)

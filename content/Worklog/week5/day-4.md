@@ -1,5 +1,5 @@
 +++
-title = "Day 4 - CloudWatch Dashboard"
+title = "Day 4 - CloudWatch Alarms"
 date = "2026-05-21"
 draft = false
 weight = 4
@@ -7,15 +7,15 @@ weight = 4
 
 ## What I did
 
-- Created a CloudWatch Dashboard.
-- Added CPU, Network, Disk and Status widgets.
-- Customized dashboard layout.
-- Displayed metrics from multiple EC2 instances.
-- Reviewed real-time monitoring.
+- Learned how CloudWatch Alarms monitor AWS resources.
+- Explored alarm states and threshold values.
+- Reviewed common monitoring scenarios.
+- Studied notification concepts.
+- Learned basic alerting best practices.
 
 ## Result
 
-- Successfully created a CloudWatch Dashboard.
-- Visualized multiple AWS resource metrics in one place.
-- Improved infrastructure visibility.
-- Learned dashboard customization techniques.
+- Understood how CloudWatch Alarms detect resource changes.
+- Learned the importance of automated monitoring.
+- Improved knowledge of basic alerting mechanisms.
+- Identified common alarm use cases in AWS.

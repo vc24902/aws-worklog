@@ -1,5 +1,5 @@
 +++
-title = "Day 3 - CloudWatch Alarms"
+title = "Day 3 - CloudWatch Logs"
 date = "2026-05-20"
 draft = false
 weight = 3
@@ -7,15 +7,15 @@ weight = 3
 
 ## What I did
 
-- Learned CloudWatch Alarm concepts.
-- Created CPU Utilization alarms.
-- Configured alarm thresholds.
-- Connected CloudWatch Alarms with Amazon SNS.
-- Tested alarm state transitions.
+- Learned the fundamentals of CloudWatch Logs.
+- Explored Log Groups and Log Streams.
+- Reviewed how application logs are collected.
+- Studied log organization and retention.
+- Learned common use cases for troubleshooting.
 
 ## Result
 
-- Successfully configured CloudWatch Alarms.
-- Verified alarms changed state when thresholds were exceeded.
-- Learned proactive monitoring using CloudWatch.
-- Understood how alarms improve operational awareness.
+- Understood the purpose of CloudWatch Logs.
+- Learned how logs help diagnose application issues.
+- Improved knowledge of centralized log management.
+- Built a foundation for monitoring application activity.

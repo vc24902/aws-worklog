@@ -1,5 +1,5 @@
 +++
-title = "Day 1 - Security Group Fundamentals"
+title = "Day 1 - Security Groups Fundamentals"
 date = "2026-05-04"
 draft = false
 weight = 1
@@ -7,15 +7,15 @@ weight = 1
 
 ## What I did
 
-- Launched EC2 instance using Amazon Linux
-- Created Security Group for EC2
-- Allowed SSH access only from my IP
-- Allowed HTTP access from anywhere
-- Connected to EC2 using SSH
-- Installed Apache web server
-- Created test web page
+- Learned the fundamentals of AWS Security Groups.
+- Explored inbound and outbound security rules.
+- Understood stateful firewall behavior.
+- Studied common protocols such as SSH, HTTP and HTTPS.
+- Reviewed how Security Groups protect EC2 instances.
 
 ## Result
 
-Successfully configured Security Group and accessed EC2 web server using public IP
-
+- Understood the purpose of Security Groups.
+- Learned how inbound and outbound rules control network traffic.
+- Identified common use cases for securing EC2 instances.
+- Built a foundation for configuring AWS network security.

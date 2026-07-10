@@ -1,21 +1,21 @@
 +++
-title = "Day 7 - Cost Monitoring & Service Quotas"
-date = "2026-05-31"
+title = "Day 7 - AWS Service Quotas & Week Review"
+date = "2026-05-24"
 draft = false
 weight = 7
 +++
 
 ## What I did
 
-- Learned AWS Cost Monitoring.
-- Explored AWS Billing Dashboard.
-- Reviewed Cost Explorer.
-- Learned Service Quotas management.
-- Reviewed account service limits.
+- Learned the purpose of AWS Service Quotas.
+- Explored default service limits in AWS.
+- Reviewed quota management concepts.
+- Summarized the monitoring services learned during the week.
+- Organized learning notes for future AWS monitoring topics.
 
 ## Result
 
-- Successfully explored AWS cost monitoring tools.
-- Understood how to monitor AWS spending.
-- Learned how Service Quotas prevent resource limit issues.
-- Completed Week 5 Monitoring & Cost labs.
+- Understood the role of AWS Service Quotas.
+- Learned how service limits affect AWS resources.
+- Strengthened understanding of CloudWatch monitoring services.
+- Successfully completed the Week 5 learning objectives.

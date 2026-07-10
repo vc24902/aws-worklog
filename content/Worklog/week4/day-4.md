@@ -1,5 +1,5 @@
 +++
-title = "Day 4 - ALB Health Check"
+title = "Day 4 - Application Load Balancer"
 date = "2026-05-14"
 draft = false
 weight = 4
@@ -7,14 +7,15 @@ weight = 4
 
 ## What I did
 
-* Configured Target Group
-* Modified Health Check Path
-* Tested Healthy and Unhealthy targets
-* Learned Target Registration process
-* Verified ALB monitoring dashboard
+- Learned the fundamentals of Application Load Balancer (ALB).
+- Explored listeners, target groups and routing rules.
+- Studied how ALB distributes incoming traffic.
+- Reviewed common web application architectures.
+- Learned the benefits of load balancing.
 
 ## Result
 
-* Successfully configured Target Group
-* Understood ALB Health Check mechanism
-* Verified healthy instances receive traffic
+- Understood how Application Load Balancer works.
+- Learned how traffic is distributed across multiple EC2 instances.
+- Improved knowledge of scalable web architectures.
+- Identified the benefits of using ALB in AWS.

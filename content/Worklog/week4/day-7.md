@@ -1,5 +1,5 @@
 +++
-title = "Day 7 - Highly Available Web Application"
+title = "Day 7 - Week Review & Scaling Summary"
 date = "2026-05-17"
 draft = false
 weight = 7
@@ -7,19 +7,15 @@ weight = 7
 
 ## What I did
 
-* Built complete architecture using:
-
-  * Launch Template
-  * Auto Scaling Group
-  * Application Load Balancer
-* Configured Multi-AZ deployment
-* Tested Auto Scaling
-* Tested Load Balancer traffic distribution
-* Verified High Availability architecture
+- Reviewed the scaling services learned during the week.
+- Summarized Launch Templates and Auto Scaling Groups.
+- Revisited Auto Scaling Policies and Application Load Balancer.
+- Reviewed Health Checks and Multi-AZ concepts.
+- Organized learning notes for future AWS deployment topics.
 
 ## Result
 
-* Successfully deployed a scalable web application
-* Verified automatic instance replacement
-* Verified traffic balancing across EC2 instances
-* Completed Week 4 Scaling Lab
+- Strengthened understanding of AWS scaling services.
+- Improved knowledge of highly available application design.
+- Built a stronger foundation for deploying scalable web applications.
+- Successfully completed the Week 4 learning objectives.

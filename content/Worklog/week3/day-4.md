@@ -1,5 +1,5 @@
 +++
-title = "Day 4 - Network ACL (NACL)"
+title = "Day 4 - VPC Flow Logs"
 date = "2026-05-07"
 draft = false
 weight = 4
@@ -7,23 +7,15 @@ weight = 4
 
 ## What I did
 
-- Created a custom Network ACL named Web-NACL
-- Associated Web-NACL with subnet 172.31.16.0/20
-- Configured inbound rules:
-  - Allow HTTP (80) from anywhere
-  - Allow SSH (22) only from my IP
-- Configured outbound rules:
-  - Allow all outbound traffic
-- Tested web server access from browser successfully
+- Learned the purpose of Amazon VPC Flow Logs.
+- Explored how network traffic is recorded.
+- Reviewed accepted and rejected traffic records.
+- Studied common monitoring scenarios.
+- Learned how Flow Logs support troubleshooting.
 
 ## Result
 
-Successfully configured a custom Network ACL for subnet-level traffic control.
-
-Learned the difference between:
-
-- Security Group (instance-level firewall)
-- Network ACL (subnet-level firewall)
-
-Also understood that NACL is stateless, so both inbound and outbound rules are required.
-
+- Understood the role of VPC Flow Logs.
+- Learned how to monitor network traffic.
+- Improved troubleshooting knowledge.
+- Identified the benefits of traffic analysis.

@@ -1,5 +1,5 @@
 +++
-title = "Day 2 - Security Group Web Server Rules"
+title = "Day 2 - Security Groups Hands-on"
 date = "2026-05-05"
 draft = false
 weight = 2
@@ -7,20 +7,15 @@ weight = 2
 
 ## What I did
 
-- Created a custom Security Group for EC2
-- Allowed SSH access only from my IP
-- Allowed HTTP access from the internet
-- Attached the new Security Group to EC2 instance
-- Tested website access using public IP
+- Explored Security Group configuration in the AWS Management Console.
+- Reviewed how to create and modify Security Groups.
+- Practiced adding inbound and outbound rules.
+- Tested common access scenarios for web and SSH services.
+- Compared different Security Group configurations.
 
 ## Result
 
-Successfully configured Security Group rules and secured EC2 access.
-
-## Security Rules
-
-| Port | Purpose | Source |
-|---|---|---|
-| 22 | SSH | My IP |
-| 80 | HTTP | 0.0.0.0/0 |
-
+- Became familiar with Security Group configuration.
+- Improved understanding of network access control.
+- Learned how Security Groups are applied to EC2 instances.
+- Gained confidence in configuring basic firewall rules.

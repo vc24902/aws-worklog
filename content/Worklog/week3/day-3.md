@@ -1,5 +1,5 @@
 +++
-title = "Day 3 - Private EC2 with Security Group"
+title = "Day 3 - Network ACL (NACL)"
 date = "2026-05-06"
 draft = false
 weight = 3
@@ -7,18 +7,15 @@ weight = 3
 
 ## What I did
 
-- Created a new Security Group named `Database-SG`
-- Configured inbound rule to allow SSH only from `WebServer-SG`
-- Launched a private EC2 instance
-- Disabled Auto-assign Public IP
-- Verified the instance only received a private IPv4 address
-- Learned the difference between public and private EC2 architecture
+- Learned the fundamentals of Network ACLs.
+- Compared Network ACLs with Security Groups.
+- Studied inbound and outbound rule evaluation.
+- Reviewed stateless firewall behavior.
+- Explored common subnet protection scenarios.
 
 ## Result
 
-Successfully created a private EC2 instance that cannot be accessed directly from the internet.
-
-## Architecture
-
-Internet → Public EC2 (`sg-lab`) → Private EC2 (`private-dbb`)
-
+- Understood how Network ACLs protect AWS subnets.
+- Learned the differences between Security Groups and Network ACLs.
+- Improved knowledge of AWS network security.
+- Identified appropriate use cases for Network ACLs.

@@ -1,5 +1,5 @@
 +++
-title = "Week 4 - Scaling"
+title = "Week 4 - Scaling & High Availability"
 date = "2026-05-11"
 draft = false
 weight = 4
@@ -9,14 +9,10 @@ weight = 4
 
 This week focuses on:
 
-- Launch Template
-- Auto Scaling Group (ASG)
+- Launch Templates
+- Auto Scaling Groups (ASG)
 - Auto Scaling Policies
-- Elastic Load Balancer (ELB)
 - Application Load Balancer (ALB)
 - Health Checks
 - Multi-AZ Deployment
-- High Availability
-- Failover
-- Performance Scaling
-- Traffic Distribution
+- High Availability Concepts

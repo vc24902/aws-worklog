@@ -1,5 +1,5 @@
 +++
-title = "Day 1 - Launch Template & Auto Scaling Group"
+title = "Day 1 - Launch Templates"
 date = "2026-05-11"
 draft = false
 weight = 1
@@ -7,22 +7,15 @@ weight = 1
 
 ## What I did
 
-* Created an EC2 Launch Template
-* Selected Amazon Linux 2023 AMI
-* Configured t3.micro instance type
-* Added Security Group and Key Pair
-* Configured EC2 User Data to install Apache automatically
-* Created an Auto Scaling Group using the Launch Template
-* Configured Desired Capacity = 1
-* Configured Minimum Capacity = 1
-* Configured Maximum Capacity = 2
-* Selected two Availability Zones
-* Verified Auto Scaling Group launched EC2 instance successfully
+- Learned the purpose of AWS Launch Templates.
+- Explored the components of a Launch Template.
+- Reviewed AMI, instance type, key pair and security group configuration.
+- Understood how Launch Templates simplify EC2 deployment.
+- Learned common use cases for Launch Templates.
 
 ## Result
 
-* Successfully created Launch Template
-* Successfully created Auto Scaling Group
-* EC2 instance launched automatically
-* Apache Web Server installed successfully
-* Verified instance health status is Healthy
+- Understood the role of Launch Templates in AWS.
+- Learned how Launch Templates standardize EC2 configuration.
+- Built a foundation for Auto Scaling Groups.
+- Improved understanding of automated EC2 deployment.

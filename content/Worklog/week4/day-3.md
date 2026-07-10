@@ -1,5 +1,5 @@
 +++
-title = "Day 3 - Application Load Balancer"
+title = "Day 3 - Auto Scaling Policies"
 date = "2026-05-13"
 draft = false
 weight = 3
@@ -7,16 +7,15 @@ weight = 3
 
 ## What I did
 
-* Created an Application Load Balancer
-* Configured Internet-facing ALB
-* Selected public subnets
-* Created Target Group
-* Registered EC2 instances
-* Configured HTTP Listener
-* Tested Load Balancer DNS
+- Learned different Auto Scaling policy types.
+- Explored dynamic and target tracking scaling.
+- Reviewed CloudWatch metrics used for scaling.
+- Studied automatic scaling based on workload.
+- Learned basic scaling best practices.
 
 ## Result
 
-* Successfully created Application Load Balancer
-* Successfully routed HTTP traffic to EC2 instances
-* Verified ALB health checks
+- Understood the purpose of Auto Scaling Policies.
+- Learned how AWS automatically adjusts EC2 resources.
+- Improved knowledge of workload-based scaling.
+- Built a foundation for scalable application design.
