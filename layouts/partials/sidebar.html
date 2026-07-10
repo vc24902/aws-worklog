@@ -1,4 +1,40 @@
 <div class="sidebar">
+
+  <!-- 🌐 Language -->
+  <div class="sidebar-section">
+
+    <strong class="sidebar-heading">
+      🌐 Language
+    </strong>
+
+    <ul class="day-list">
+
+      <!-- English -->
+      <li>
+        {{ if eq .Language.Lang "en" }}
+          <strong>🇺🇸 English</strong>
+        {{ else }}
+          <a href="{{ .RelPermalink }}">🇺🇸 English</a>
+        {{ end }}
+      </li>
+
+      <!-- Vietnamese -->
+      <li>
+        {{ if .IsTranslated }}
+          {{ range .Translations }}
+            {{ if eq .Language.Lang "vi" }}
+              <a href="{{ .RelPermalink }}">🇻🇳 Tiếng Việt</a>
+            {{ end }}
+          {{ end }}
+        {{ else }}
+          <span style="color:#888;">🇻🇳 Tiếng Việt</span>
+        {{ end }}
+      </li>
+
+    </ul>
+
+  </div>
+
   <h3 class="sidebar-title">📚 AWS Worklog</h3>
 
   {{ range .Site.Sections.ByWeight }}
