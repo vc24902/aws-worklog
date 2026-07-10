@@ -16,3 +16,9 @@ weight = 2
 
 ```bash
 aws s3 ls
+## Result
+
+- Successfully attached the IAM Role to the EC2 instance.
+- Verified that the EC2 instance could access Amazon S3 using the assigned IAM Role.
+- Successfully listed S3 buckets using AWS CLI.
+- Confirmed that no AWS access keys were required when using IAM Role.

@@ -5,6 +5,9 @@ theme = "ananke"
 
 canonifyURLs = true
 
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
 [outputs]
 home = ["HTML"]
 
@@ -19,3 +22,19 @@ customCSS = ["css/style.css"]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+############################
+# Languages
+############################
+
+[languages]
+
+[languages.en]
+languageName = "English"
+languageCode = "en-US"
+weight = 1
+
+[languages.vi]
+languageName = "Tiếng Việt"
+languageCode = "vi-VN"
+weight = 2
