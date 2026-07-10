@@ -2,84 +2,46 @@
 title = "Home"
 +++
 
-<div style="max-width:1200px;margin:auto;padding:40px;">
+# <div style="text-align:center;font-size:56px;color:#6B7FA8;margin-bottom:60px;">BÁO CÁO THỰC TẬP</div>
 
-<h1 style="text-align:center;
-font-size:60px;
-color:#7083A5;
-margin-bottom:60px;">
+<table style="width:100%;border:none;">
 
-BÁO CÁO THỰC TẬP
+<tr>
 
-</h1>
-
-<div style="display:flex;align-items:flex-start;justify-content:space-between;">
-
-<div style="width:32%;text-align:center;">
+<td width="32%" style="text-align:center;vertical-align:top;border:none;">
 
 <img src="/images/avatar.jpg"
-style="width:280px;
-border:1px solid #ccc;
-padding:5px;">
+width="260"
+style="border-radius:8px;border:1px solid #ccc;padding:4px;">
 
-<p style="font-size:20px;color:#666;">
-Ảnh sinh viên
-</p>
+<br><br>
 
-</div>
+**Ảnh sinh viên**
 
-<div style="width:63%;">
+</td>
 
-<h2 style="font-size:42px;
-color:#7083A5;
-margin-bottom:30px;">
+<td width="68%" style="vertical-align:top;border:none;">
 
-Thông tin sinh viên:
+# Thông tin sinh viên
 
-</h2>
+**Họ và tên:** Trần Hoàng Chiến
 
-<p style="font-size:28px;line-height:2;">
-<strong>Họ và tên:</strong> Trần Hoàng Chiến
-</p>
+**Số điện thoại:** 0834972928
 
-<p style="font-size:28px;line-height:2;">
-<strong>Số điện thoại:</strong> 0834972928
-</p>
+**Email:** vc24902@gmail.com
 
-<p style="font-size:28px;line-height:2;">
-<strong>Email:</strong>
-<a href="mailto:vc24902@gmail.com">
-vc24902@gmail.com
-</a>
-</p>
+**Trường:** Trường Đại Học Công Nghệ TP.HCM (HUTECH)
 
-<p style="font-size:28px;line-height:2;">
-<strong>Trường:</strong>
-Trường Đại Học Công Nghệ TP.HCM (HUTECH)
-</p>
+**Ngành:** Công nghệ thông tin
 
-<p style="font-size:28px;line-height:2;">
-<strong>Ngành:</strong>
-Công nghệ thông tin
-</p>
+**Công ty thực tập:** Công ty TNHH Amazon Web Services Việt Nam
 
-<p style="font-size:28px;line-height:2;">
-<strong>Công ty thực tập:</strong>
-Công ty TNHH Amazon Web Services Việt Nam
-</p>
+**Vị trí thực tập:** Workforce Bootcamp – First Cloud AI Journey
 
-<p style="font-size:28px;line-height:2;">
-<strong>Vị trí thực tập:</strong>
-Workforce Bootcamp - First Cloud AI Journey
-</p>
+**Thời gian thực tập:** 17/04/2026 – 10/07/2026
 
-<p style="font-size:28px;line-height:2;">
-<strong>Thời gian thực tập:</strong>
-Từ ngày 17/04/2026 đến ngày 10/07/2026
-</p>
+</td>
 
-</div>
+</tr>
 
-</div>
-
-</div>
+</table>
